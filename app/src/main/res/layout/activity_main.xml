@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main">
+
+    <TableLayout
+        android:id="@+id/team_selective"
+        android:layout_width="293dp"
+        android:layout_height="785dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="157dp"
+                android:onClick="buttonKiwoomPressed"
+                android:src="@drawable/kiwoom_logo" />
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="157dp"
+                android:onClick="buttonKtPressed"
+                android:src="@drawable/kt_logo" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="157dp"
+                android:onClick="buttonHanwhaPressed"
+                android:src="@drawable/hanwha_logo" />
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="157dp"
+                android:onClick="buttonLgPressed"
+                android:src="@drawable/lg_logo" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="157dp"
+                android:onClick="buttonSSGPressed"
+                android:src="@drawable/ssg_logo" />
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="157dp"
+                android:onClick="buttonDoosanPressed"
+                android:src="@drawable/doosan_logo" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="157dp"
+                android:onClick="buttonKiaPressed"
+                android:src="@drawable/kia_logo" />
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="157dp"
+                android:onClick="buttonLottePressed"
+                android:src="@drawable/lotte_logo" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="157dp"
+                android:onClick="buttonNcPressed"
+                android:src="@drawable/nc_logo" />
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="157dp"
+                android:onClick="buttonSamsungPressed"
+                android:src="@drawable/samsung_logo" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

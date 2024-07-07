@@ -1,0 +1,13 @@
+package net.xtapu.android.kbo;
+
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Kiwoom extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_kiwoom);
+    }
+}
